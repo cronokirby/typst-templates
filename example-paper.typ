@@ -29,3 +29,7 @@ $
 FF arrow.r GG
 $
 Foo?
+
+See #cite("bdfkk18", "yil09")
+
+#bibliography(style: "ieee", "test.bib")

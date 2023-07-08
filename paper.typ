@@ -21,8 +21,11 @@
     v(0.2em)
   }
   set heading(numbering: "1.1")
-  
+
   show par: set block(spacing: 1.5em)
+
+  
+  set cite(style: "alphanumerical")
 
   align(center, text(2em)[
     #title
