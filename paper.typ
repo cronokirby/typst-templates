@@ -24,8 +24,8 @@
   
   show par: set block(spacing: 1.5em)
 
-  align(center, text(1.8em)[
-    *#title*
+  align(center, text(2em)[
+    #title
   ])
   align(center, text(1.2em)[
     #author.name \
@@ -35,8 +35,8 @@
   ])
 
   align(center, [
-    #text(1.2em)[*Abstract*]
-    #v(-1em)
+    #text(1.0em)[*Abstract*]
+    #v(-0.5em)
     #pad(x: 2em, abstract)
   ])
 
