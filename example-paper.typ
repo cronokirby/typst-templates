@@ -20,7 +20,12 @@ runs in proportional time.
 
 == Section
 
+#lorem(30)
+
+#lorem(30)
+
 If you consider a function:
 $
 FF arrow.r GG
 $
+Foo?

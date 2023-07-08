@@ -15,6 +15,14 @@
   )
 
   show math.equation: set text(font: "Stix Two Math")
+  show heading: it => {
+    v(0.2em)
+    it 
+    v(0.2em)
+  }
+  set heading(numbering: "1.1")
+  
+  show par: set block(spacing: 1.5em)
 
   align(center, text(1.8em)[
     *#title*
@@ -22,13 +30,13 @@
   align(center, text(1.2em)[
     #author.name \
     #author.email \
-    #v(0.25em)
+    #parbreak()
     #datetime.today().display()
   ])
-  v(1em)
 
   align(center, [
-    #text(1.2em)[*Abstract*] \
+    #text(1.2em)[*Abstract*]
+    #v(-1em)
     #pad(x: 2em, abstract)
   ])
 
