@@ -74,7 +74,7 @@
 }
 
 #let theorem(content) = {
-  defc.step(level: 2)
+  thmc.step(level: 2)
   text(weight: "bold")[Theorem #thmc.display()]
   linebreak()
   content
@@ -82,7 +82,7 @@
 }
 
 #let lemma(content) = {
-  defc.step(level: 2)
+  thmc.step(level: 2)
   text(weight: "bold")[Lemma #thmc.display()]
   linebreak()
   content
@@ -90,7 +90,7 @@
 }
 
 #let claim(content) = {
-  defc.step(level: 2)
+  thmc.step(level: 2)
   text(weight: "bold")[Claim #thmc.display()]
   linebreak()
   content

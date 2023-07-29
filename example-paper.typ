@@ -67,4 +67,5 @@ See #cite("can01", "bdfkk18", "yil09")
   Woah mama, that's a nice definition.
 ]
 
+#pagebreak()
 #bibliography(style: "chicago-notes", "test.bib")
