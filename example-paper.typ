@@ -3,7 +3,7 @@
 #let abstract = lorem(40)
 
 #show: doc => paper.template(
-  title: [On The Nature of Examples],
+  title: "On The Nature of Examples",
   author: (name: "Example Author", email: "name@example.com"),
   abstract: abstract,
   doc,
@@ -31,5 +31,40 @@ then it might not be great, even if it goes on and on and on.
 But, on the other hand.
 
 See #cite("can01", "bdfkk18", "yil09")
+
+#paper.definition[
+  Woah mama, that's a nice definition.
+]
+
+#lorem(40)
+
+#paper.theorem[
+  Nice theorem.
+]
+#paper.proof[
+  Woah mama that's a nice proof.
+]
+#paper.lemma[
+  Nice lemma.
+]
+#paper.proof[
+  Woah mama that's a nice proof.
+]
+#paper.claim[
+  Nice claim.
+]
+#paper.proof[
+  Woah mama that's a nice proof.
+]
+
+= Another section
+
+#paper.definition[
+  Woah mama, that's a nice definition.
+]
+
+#paper.definition[
+  Woah mama, that's a nice definition.
+]
 
 #bibliography(style: "chicago-notes", "test.bib")
