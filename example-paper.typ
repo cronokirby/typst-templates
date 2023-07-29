@@ -24,11 +24,11 @@ runs in proportional time.
 
 #lorem(30)
 
-If you consider a function:
-$
-FF arrow.r GG
-$
-Foo?
+If you consider a function that goes on and on and on:
+$ sum FF_i arrow.r GG $
+then it might not be great, even if it goes on and on and on.
+
+But, on the other hand.
 
 See #cite("can01", "bdfkk18", "yil09")
 

@@ -14,7 +14,12 @@
     size: 12pt
   )
 
-  show math.equation: set text(font: "Stix Two Math")
+  show math.equation: it => text(font: "Stix Two Math")[
+    #v(-0.25em)
+    #it
+    #v(-0.5em)
+  ]
+
   show heading: it => {
     v(0.2em)
     it 
