@@ -37,8 +37,10 @@
     #datetime.today().display()
   ])
 
-  align(center, [
-    #text(1.0em)[*Abstract*]
+  align(left, [
+    #align(center, [
+      #text(1.0em)[*Abstract*]
+    ])
     #v(-0.5em)
     #pad(x: 2em, abstract)
   ])

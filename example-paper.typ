@@ -30,6 +30,6 @@ FF arrow.r GG
 $
 Foo?
 
-See #cite("bdfkk18", "yil09")
+See #cite("can01", "bdfkk18", "yil09")
 
-#bibliography(style: "ieee", "test.bib")
+#bibliography(style: "chicago-notes", "test.bib")
